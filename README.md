@@ -52,6 +52,10 @@ Parameters:
     C_Delta (float): Step size for columns (angle step in degrees) (default is 0.0682412°).
     C_Units (str): Units for columns (default is 'Y-Scale [deg]').
     cmap (str): Colormap style for the plot (default is 'coolwarm').
+         cmap options = [
+            'viridis', 'plasma', 'inferno', 'magma', 'cividis', 'coolwarm',
+            'jet', 'twilight', 'Spectral', 'YlGnBu'
+        ]
     fontsize (int): Font size for labels, title, and ticks (default is 14).
 
 Returns:
