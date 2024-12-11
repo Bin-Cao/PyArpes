@@ -1,6 +1,10 @@
 # PyArpes
 Data Post-Processing Package for ARPES Data
 
+## Installing
+    pip install PyArpes 
+    
+
 Tutorial : ./tutorial.ipynb
 
 ```
@@ -54,5 +58,6 @@ Returns:
     None: Displays the plot and saves it to files.
 
 E.g.,
-    PyArpes.Igor().dispersion(file_loc = './data.txt')
+    from PyArpes import show
+    show.Igor().dispersion(file_loc = './data.txt')
 ```
